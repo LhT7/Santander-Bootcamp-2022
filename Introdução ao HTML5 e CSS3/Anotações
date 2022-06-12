@@ -1,4 +1,4 @@
-HTML5
+# HTML5
 Definição e estrutura básica
 Em 1991 Tim Berners-Lee criou essa linguagem de marcação para melhorar a comunicação entre ele e seus colegas de trabalho no CERN, desde então já surgiram 5 versões e o HTML se tornou a base da web.
 
@@ -136,7 +136,7 @@ Crie um elemento ul e dentro dele adicione um <li> com um elemento a, no atribut
 
 
 
-CSS 3
+# CSS 3
 Definição e seletores
 Após a criação do HTML a necessidade de formatar as páginas ficou evidente, assim, em 1996, foi criada a linguagem de estilo que conhecemos por CSS.
 
