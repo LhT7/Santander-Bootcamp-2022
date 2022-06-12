@@ -12,15 +12,15 @@ E agora podemos ver como é a estrutura básica de um arquivo HTML.
 
 A primeira linha do documento deve ser o <!DOCTYPE html>, apesar de parecer um elemento HTML ela apenas diz ao navegador que ele está lidando com um arquivo do tipo HTML5. Os elementos HTML vem logo abaixo.
 
-Tag *html
+Tag **html**
 
 A tag html é a raiz do seu documento, todos os elementos HTML devem estar dentro dela. E nela nós informamos ao navegador qual é o idioma desse nosso documento, através do atributo lang, para o português brasileiro usamos pt-BR.
 
-Tag *head
+Tag **head**
 
 A tag head contém elementos que serão lidos pelo navegador, como os metadados - um exemplo é o charset, que é a codificação de caracteres e a mais comum é a UTF-8, o JavaScript com a tag script, o CSS através das tags style e link - veremos a diferença quando falarmos sobre CSS - e o título da página com a tag title.
 
-Tag *body
+Tag **body**
 
 E dentro da tag body colocamos todo o conteúdo visível ao usuário: textos, imagens, vídeos.
 
@@ -40,19 +40,19 @@ Mas em 2014 saiu a quinta versão do HTML, e com ela vieram vários mudanças im
 
 A semântica nos permite descrever mais precisamente o nosso conteúdo, agora um bloco de texto não é apenas uma div, agora é um article e tem mais significado assim. E temos vários elementos para ressignificar as divs:
 
-Tag *section
+Tag **section**
 
 Representa uma seção genérica de conteúdo quando não houver um elemento mais específico para isso.
 
-Tag *header
+Tag **header**
 
 É o cabeçalho da página ou de uma seção da página e normalmente contém logotipos, menus, campos de busca.
 
-Tag *article
+Tag **article**
 
 Representa um conteúdo independente e de maior relevância dentro de uma página, como um post de blog, uma notícia em uma barra lateral ou um bloco de comentários. Um *article pode conter outros elementos, como header, cabeçalhos, parágrafos e imagens.
 
-Tag *aside
+Tag **aside**
 
 É uma seção que engloba conteúdos relacionados ao conteúdo principal, como artigos relacionados, biografia do autor e publicidade. Normalmente são representadas como barras laterais.
 
